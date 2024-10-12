@@ -1,101 +1,218 @@
 import Image from "next/image";
+import Header from "./components/header";
+import news from "@/app/images/trends.webp";
+import softwareDevelopment from "@/app/images/softwareDevelopment.jpg";
+import aiImage from "@/app/images/ai.jpg";
+import mobileDevelopmentImage from "@/app/images/mobile development.webp";
+import devopsImage from "@/app/images/devops.jpg";
+import ITImage from "@/app/images/network.jpg";
+import Link from "next/link";
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="bg-purple-300 h-[100%] flip-animation">
+      
+      <div className="bg-purple-900 h-[150px] sm:h-[300px] grid flip-animation">
+        <p className="text-white text-center text-[30px] sm:text-[100px] font-bold sm:font-extrabold italic tracking-[3px] sm:tracking-[10px]">
+          Exploring the Future of Innovation
+        </p>
+        <p className="text-white text-center text-[20px] sm:text-[50px] font-bold italic tracking-[6px] sm:tracking-[19px]">
+          Your Ultimate Guide to the Latest in Technology
+        </p>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* blog display on the home Page */}
+
+      {/* main div of blog summary on the home page */}
+      <div className="h-auto grid sm:flex p-2 justify-between">
+        {/* 1st blog */}
+
+        <div
+          className="bg-purple-700 hover:bg-purple-500 h-[500px] sm:h-[650px] w-[80%] m-auto sm:w-1/4 rounded-[35px] duration-500 
+        border-purple-700 border-[15px] grid hover:border-purple-500 hover:cursor-pointer mb-3"
+        >
+          {/* 1st - news and trends section */}
+          {/* image div */}
+          <Link href={"/news&trends"}>
+            <div>
+              <Image
+                className="rounded-tl-[20px] rounded-tr-[20px] h-[250px] sm:h-[300px] w-full flip-animation"
+                src={news}
+                alt="News & trends"
+              ></Image>
+
+              {/* heading of the Blog */}
+              <p className="text-black text-[30px] sm:text-[45px] tracking-[2px] text-center font-mono font-bold">
+                Tech News & <br /> Trends
+              </p>
+
+              {/* Description of Blog */}
+
+              <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+                Latest updates on emerging technologies, gadgets, and industry
+                trends
+              </p>
+            </div>
+          </Link>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+
+        {/* 2nd blog */}
+        <div
+          className="bg-purple-700 hover:bg-purple-500 h-[500px] sm:h-[650px] w-[80%] m-auto sm:w-1/4 rounded-[35px] duration-500 
+        border-purple-700 border-[15px] grid hover:border-purple-500 hover:cursor-pointer  mb-3"
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          {/* 1st - news and trends section */}
+          {/* image div */}
+          <Link href={"/softwaredevelopment"}>
+            <div>
+              <Image
+                className="rounded-tl-[20px] rounded-tr-[20px] h-[250px] sm:h-[300px] w-full flip-animation"
+                src={softwareDevelopment}
+                alt="software Development"
+              ></Image>
+
+              {/* heading of the Blog */}
+              <p className="text-black text-[30px] sm:text-[45px] tracking-[2px] text-center font-mono font-bold">
+                Software <br /> Development
+              </p>
+
+              {/* Description of Blog */}
+
+              <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+                Programming languages, frameworks, and software development best
+                practices.
+              </p>
+            </div>
+          </Link>
+        </div>
+
+        {/* 3rd blog */}
+
+        <div
+          className="bg-purple-700 hover:bg-purple-500 h-[500px] sm:h-[650px] w-[80%] m-auto sm:w-1/4 rounded-[35px] duration-500 
+        border-purple-700 border-[15px] grid hover:border-purple-500 hover:cursor-pointer  mb-3"
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          {/* 1st - news and trends section */}
+          {/* image div */}
+          <Link href={"/artificialintelligence"}>
+          <div>
+            <Image
+              className="rounded-tl-[20px] rounded-tr-[20px] h-[250px] sm:h-[300px] w-full flip-animation"
+              src={aiImage}
+              alt="Artificial Intelligence"
+            ></Image>
+
+            {/* heading of the Blog */}
+            <p className="text-black text-[30px] sm:text-[45px] tracking-[2px] text-center font-mono font-bold">
+              Artificial <br />
+              Intelligence
+            </p>
+
+            {/* Description of Blog */}
+
+            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+              AI breakthroughs, machine learning tutorials, and automation.
+            </p>
+          </div>
+          </Link>
+        </div>
+        
+      </div>
+
+      <div className="h-auto grid sm:flex p-2 justify-between">
+        {/* 4th blog */}
+        <div
+          className="bg-purple-700 hover:bg-purple-500 h-[500px] sm:h-[650px] w-[80%] m-auto sm:w-1/4 rounded-[35px] duration-500 
+        border-purple-700 border-[15px] grid hover:border-purple-500 hover:cursor-pointer  mb-3"
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          {/* 1st - news and trends section */}
+          {/* image div */}
+          <Link href={"/mobileappdevelopment"}>
+          <div>
+            <Image
+              className="rounded-tl-[20px] rounded-tr-[20px] h-[250px] sm:h-[300px] w-full flip-animation"
+              src={mobileDevelopmentImage}
+              alt="mobile Development"
+            ></Image>
+
+            {/* heading of the Blog */}
+            <p className="text-black text-[30px] sm:text-[45px] tracking-[2px] text-center font-mono font-bold">
+              Mobile <br /> Development
+            </p>
+
+            {/* Description of Blog */}
+
+            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+              Developing for iOS, Android, and cross-platform frameworks (React
+              Native, Flutter).
+            </p>
+          </div>
+          </Link>
+        </div>
+
+        {/* 5th blog */}
+        <div
+          className="bg-purple-700 hover:bg-purple-500 h-[500px] sm:h-[650px] w-[80%] m-auto sm:w-1/4 rounded-[35px] duration-500 
+        border-purple-700 border-[15px] grid hover:border-purple-500 hover:cursor-pointer  mb-3"
+        >
+          {/* 1st - news and trends section */}
+          {/* image div */}
+          <Link href={"/devops"}>
+          <div>
+            <Image
+              className="rounded-tl-[20px] rounded-tr-[20px] h-[250px] sm:h-[300px] w-full flip-animation"
+              src={devopsImage}
+              alt="devops & automation"
+            ></Image>
+
+            {/* heading of the Blog */}
+            <p className="text-black text-[30px] sm:text-[45px] tracking-[2px] text-center font-mono font-bold">
+              DevOps & <br /> Automation
+            </p>
+
+            {/* Description of Blog */}
+
+            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+              Continuous integration, delivery pipelines, and automation tools.
+            </p>
+          </div>
+          </Link>
+        </div>
+
+        {/* 6th blog */}
+
+        <div
+          className="bg-purple-700 hover:bg-purple-500 h-[500px] sm:h-[650px] w-[80%] m-auto sm:w-1/4 rounded-[35px] duration-500 
+        border-purple-700 border-[15px] grid hover:border-purple-500 hover:cursor-pointer  mb-3"
+        >
+          {/* 1st - news and trends section */}
+          {/* image div */}
+          <Link href={"/networkandinfrastructure"}>
+          <div>
+            <Image
+              className="rounded-tl-[20px] rounded-tr-[20px] h-[250px] sm:h-[300px] w-full flip-animation"
+              src={ITImage}
+              alt="networking & infrastructure"
+            ></Image>
+
+            {/* heading of the Blog */}
+            <p className="text-black text-[30px] sm:text-[45px] tracking-[2px] text-center font-mono font-bold">
+              Networking & <br /> Infrastructure
+            </p>
+
+            {/* Description of Blog */}
+
+            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+              Networking fundamentals, hardware, server management, and cloud
+              networking.
+            </p>
+          </div>
+          </Link>
+        </div>
+       
+      </div>
+     
     </div>
   );
 }
