@@ -14,10 +14,10 @@ export default function Home() {
     <div className="bg-purple-300 h-[100%] flip-animation">
       
       <div className="bg-purple-900 h-[150px] sm:h-[300px] grid flip-animation">
-        <p className="text-white text-center text-[30px] sm:text-[100px] font-bold sm:font-extrabold italic tracking-[3px] sm:tracking-[10px]">
+        <p className="text-white text-center text-[30px] sm:text-[80px] font-bold sm:font-extrabold italic tracking-[3px] sm:tracking-[10px]">
           Exploring the Future of Innovation
         </p>
-        <p className="text-white text-center text-[20px] sm:text-[50px] font-bold italic tracking-[6px] sm:tracking-[19px]">
+        <p className="text-white text-center text-[20px] sm:text-[30px] font-bold italic tracking-[6px] sm:tracking-[19px]">
           Your Ultimate Guide to the Latest in Technology
         </p>
       </div>
@@ -49,7 +49,7 @@ export default function Home() {
 
               {/* Description of Blog */}
 
-              <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+              <p className="text-white text-[20px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
                 Latest updates on emerging technologies, gadgets, and industry
                 trends
               </p>
@@ -79,7 +79,7 @@ export default function Home() {
 
               {/* Description of Blog */}
 
-              <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+              <p className="text-white text-[20px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
                 Programming languages, frameworks, and software development best
                 practices.
               </p>
@@ -111,7 +111,7 @@ export default function Home() {
 
             {/* Description of Blog */}
 
-            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+            <p className="text-white text-[20px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
               AI breakthroughs, machine learning tutorials, and automation.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function Home() {
 
             {/* Description of Blog */}
 
-            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+            <p className="text-white text-[20px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
               Developing for iOS, Android, and cross-platform frameworks (React
               Native, Flutter).
             </p>
@@ -173,7 +173,7 @@ export default function Home() {
 
             {/* Description of Blog */}
 
-            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+            <p className="text-white text-[20px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
               Continuous integration, delivery pipelines, and automation tools.
             </p>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
 
             {/* Description of Blog */}
 
-            <p className="text-white text-[20px] sm:text-[30px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
+            <p className="text-white text-[20px] tracking-[2px] text-justify font-mono p-4 sm:p-7">
               Networking fundamentals, hardware, server management, and cloud
               networking.
             </p>
