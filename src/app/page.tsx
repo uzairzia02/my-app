@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "./components/header";
 import news from "@/app/images/trends.webp";
 import softwareDevelopment from "@/app/images/softwareDevelopment.jpg";
 import aiImage from "@/app/images/ai.jpg";

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "../components/header";
 import SoftwareDevelopmentImage from "@/app/images/softwareDevelopment.jpg";
 
 export default function Software() {
@@ -32,15 +31,15 @@ export default function Software() {
           Software development is the driving force behind the digital
           transformation we experience today. From web apps and mobile
           applications to cloud computing solutions, software is what powers
-          businesses and connects users to their needs. In this blog, we’ll
+          businesses and connects users to their needs. In this blog, we will
           explore the latest trends, tools, and best practices in the world of
-          software development and how they’re shaping the future of technology.
+          software development and how they are shaping the future of technology.
         </p>
         <h1 className="text-[35px] sm:text-[60px] font-bold pt-8 pb-4 sm:pb-8">
           Agile Development: Staying Flexible in a Fast-Paced World
         </h1>
         <p className="text-justify">
-          In today's software landscape, agility is key. Agile development has
+          In todays software landscape, agility is key. Agile development has
           become the gold standard for teams to stay adaptable, productive, and
           customer-focused. Unlike traditional methodologies like Waterfall,
           Agile allows for constant iteration, feedback loops, and

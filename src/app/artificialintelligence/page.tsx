@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "../components/header";
 import AiImage from "@/app/images/ai.jpg";
 
 export default function ArtificialIntelligence() {
@@ -40,7 +39,7 @@ export default function ArtificialIntelligence() {
         <p className="text-justify">
           Artificial Intelligence (AI) is no longer just a buzzword; it’s
           transforming every industry. In 2024, Generative AI tools like
-          OpenAI's GPT models are becoming more refined, impacting fields like
+          OpenAIs GPT models are becoming more refined, impacting fields like
           content creation, customer service, and even code generation.
         </p>
         <br />

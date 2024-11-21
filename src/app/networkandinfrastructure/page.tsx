@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "../components/header";
 import NetworkAndInfrastructureImage from "@/app/images/network.jpg";
 
 export default function NetworkAndInfrastructure() {
@@ -29,9 +28,9 @@ export default function NetworkAndInfrastructure() {
 
       <div className="w-[90%] sm:w-[70%] items-center m-auto text-[20px] sm:text-[40px] pb-9">
         <p className="text-justify">
-        In the modern digital landscape, Network & Infrastructure have become an integral part of our daily lives. Whether it's social networking, 
+        In the modern digital landscape, Network & Infrastructure have become an integral part of our daily lives. Whether it is social networking, 
         entertainment, banking, or e-commerce, mobile apps power nearly everything we do online. With the rapid growth of smartphones and the 
-        demand for on-the-go services, mobile app development has evolved to meet the increasing needs of users worldwide. In this blog, we’ll 
+        demand for on-the-go services, mobile app development has evolved to meet the increasing needs of users worldwide. In this blog, we will 
         explore the latest trends, tools, and the future of mobile app development.
 
 
@@ -41,9 +40,9 @@ export default function NetworkAndInfrastructure() {
           Network & Infrastructure Dominates the Conversation
         </h1>
         <p className="text-justify">
-        Mobile development is no longer just a buzzword; it’s
+        Mobile development is no longer just a buzzword; it is
           transforming every industry. In 2024, Generative AI tools like
-          OpenAI's GPT models are becoming more refined, impacting fields like
+          OpenAI is GPT models are becoming more refined, impacting fields like
           content creation, customer service, and even code generation.
         </p>
         <br />

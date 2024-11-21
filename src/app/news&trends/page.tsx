@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "../components/header";
 import Trends from "@/app/images/trends.webp";
 
 export default function NewsTrends() {
@@ -32,7 +31,7 @@ export default function NewsTrends() {
           As we move deeper into 2024, technology continues to evolve at a rapid
           pace, shaping the way we live, work, and interact with the world. From
           artificial intelligence advancements to breakthroughs in blockchain,
-          the future holds exciting developments. Let’s take a look at some of
+          the future holds exciting developments. Lets take a look at some of
           the biggest tech trends that are defining this year.
         </p>
 
@@ -40,9 +39,9 @@ export default function NewsTrends() {
           AI Dominates the Conversation
         </h1>
         <p className="text-justify">
-          Artificial Intelligence (AI) is no longer just a buzzword; it’s
+          Artificial Intelligence (AI) is no longer just a buzzword; it is
           transforming every industry. In 2024, Generative AI tools like
-          OpenAI's GPT models are becoming more refined, impacting fields like
+          OpenAI iss GPT models are becoming more refined, impacting fields like
           content creation, customer service, and even code generation.
         </p>
         <br />
